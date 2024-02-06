@@ -10,11 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "@tanstack/react-query": "^5.18.1",
     "@tanstack/react-query-devtools": "^5.18.1",
     "@xstate/react": "^4.0.3",
     "axios": "^1.6.7",
+    "clsx": "^2.1.0",
+    "dayjs": "^1.11.10",
+    "dayjs-plugin-utc": "^0.1.2",
+    "dayjs-timezone-iana-plugin": "^0.1.0",
     "express": "^4.18.2",
+    "framer-motion": "^11.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "xstate": "^5.6.0"
@@ -26,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.17",
     "cors": "^2.8.5",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
@@ -35,10 +42,12 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.34",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "request": "^2.88.2",
     "sass": "^1.70.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.8"
   }
