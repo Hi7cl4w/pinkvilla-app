@@ -1,0 +1,17 @@
+.feedItem {
+  .title {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
+    word-break: break-all;
+    height: 84px;
+    -webkit-line-clamp: 3;
+  }
+  .image {
+    height: 145px;
+  }
+}
